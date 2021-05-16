@@ -41,7 +41,8 @@ kubectl apply -f kubernetes-dashboard-expose.yaml
 # Get token
 kubectl -n kubernetes-dashboard describe secret admin-user-token | grep '^token'
 ```
-Now connect to https://EXTERNAL-IP:8443 (expect a warning about self-signed certificate) and use the token to access the K8S dashboard.
+Now connect to https://EXTERNAL-IP:8443 (expect a warning
+about self-signed certificate) and use the token to access the K8S dashboard.
 
 
 ## Install Tekton
