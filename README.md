@@ -13,6 +13,6 @@ From 8000 to 8999 those are open for incoming traffic:
 
 ## setup/
 
-(Set up k3s and Tekton)[https://github.com/haraldkubota/tekton-playground/tree/main/setup]
+[Set up k3s and Tekton](https://github.com/haraldkubota/tekton-playground/tree/main/setup)
 and expose both the Kubernetes and Tekton dashboards
 
